@@ -1,0 +1,9 @@
+<br>
+<div class="row">
+    <% if(!isFirstPage){ %>
+    <a href="?page=<%= page-1 %>" class="prevPage"><button class="btn">上一页</button></a>
+    <% } %>
+    <% if(!isLastPage){ %>
+    <a href="?page=<%= page+1 %>" class="nextPage"><button class="btn">下一页</button></a>
+    <% } %>
+</div>
